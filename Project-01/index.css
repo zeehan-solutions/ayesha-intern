@@ -1,0 +1,730 @@
+@font-face {
+    font-family: 'canopee';
+    src: url(./canopee-regular/Canopee-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    /*font-family: "canopee";*/
+    background: #d3ccbf;
+    background-image: url("./images/background.jpg");
+}
+
+.navbar {
+    font-family: canopee;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    background-image: url("./images/background.jpg");
+}
+
+.nav-left {
+    font-size: 14px;
+    color: #333;
+}
+
+.nav-center {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Cormorant Garamond", serif;
+    margin-right: 92px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.hambur {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.hambur span {
+    width: 25px;
+    height: 2px;
+    background: #000;
+}
+
+.work-section {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto;
+    gap: 40px;
+    padding: 31px 37px;
+    align-items: start;
+    margin-top: 0px;
+}
+
+.work-card {
+    position: relative;
+    cursor: pointer;
+    padding: 15px;
+    height: 50vh;
+}
+
+.work-center {
+    position: relative;
+    cursor: pointer;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 17px;
+    height: 49vh;
+}
+
+.work-card img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.work-card h2 {
+    font-family: canopee;
+    font-size: 22px;
+    margin: 10px 0 5px;
+    font-weight: 700;
+}
+
+.work-card p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.new-tag {
+    background: #d67a2b;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.work-center h1 {
+    font-size: 40px;
+    margin-bottom: 52px;
+    font-weight: bold;
+    font-family: 'canopee';
+}
+
+.work-center h3 {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 39px;
+}
+
+.tip {
+    font-size: 15px;
+    color: #444;
+    font-weight: bolder;
+}
+
+.Minranda {
+    float: left;
+    display: flex;
+    padding: 7px;
+    margin: 8px;
+    font-family: 'canopee';
+}
+
+.min {
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    padding-right: 4vw;
+    padding-left: 1vw;
+    text-transform: uppercase;
+    background: #111;
+    color: #d3ccbf;
+    font-size: 32vw;
+}
+
+.artist {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 0px;
+    width: 95%;
+    margin: 6px auto;
+    padding: 8px;
+}
+
+.left-1 {
+    padding-left: 15px;
+}
+
+.left {
+    width: 100%;
+}
+
+.left-img {
+    width: 97%;
+    height: 58vh;
+}
+
+.left p {
+    font-family: sans-serif;
+    font-size: 39px;
+    display: inline;
+}
+
+.AA {
+    margin-top: 2px;
+    font-size: 50px;
+    line-height: 7.7vw;
+    text-align: left;
+    background-color: #0d0d0d;
+    color: whitesmoke;
+    display: inline;
+    width: 21.5px;
+    height: 8vh;
+    font-family: 'canopee';
+    padding: 5px;
+    margin-bottom: -48px;
+}
+
+.title {
+    font-size: 97px;
+    font-family: 'canopee';
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.right {
+    width: 100%;
+    height: auto;
+    border-left: 1px solid black;
+    padding: 8px
+}
+
+.right-img {
+    width: 99%;
+    height: 96vh;
+}
+
+.right h1 {
+    font-size: 69px;
+    font-family: 'canopee';
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.webs {
+    font-family: 'canopee';
+    display: flex;
+    padding: 7px;
+    margin: 8px;
+}
+
+.website {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    padding-top: 6vw;
+    padding-bottom: 2vw;
+    padding-right: 9vw;
+    padding-left: 0vh;
+    font-size: 23vw;
+    text-transform: uppercase;
+    background: #111;
+    color: #d3ccbf;
+}
+
+.stamp {
+    padding: 0px;
+    margin: 0px;
+    width: 27%;
+    padding-bottom: 24px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    align-items: start;
+}
+
+.heading {
+    font-size: 44px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    font-family: 'canopee';
+}
+
+.subtext {
+    margin-top: 19px;
+    font-size: 31px;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.tip-1 {
+    margin-top: 13px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.middle-1 {
+    border-left: 1px solid black;
+    padding: 5px;
+    font-family: 'canopee';
+}
+
+.middle-1 .preview {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: -7px;
+}
+
+.title-1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.right-1 {
+    border-left: 1px solid black;
+    padding: 2px;
+    height: 138vh;
+    padding-left: 10px;
+}
+
+.think {
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: -9px;
+    padding-left: 2px;
+    font-family: 'canopee';
+}
+
+.deliver {
+    font-size: 85px;
+    margin-top: -56px;
+    font-weight: 900;
+    font-family: 'canopee';
+}
+
+.A {
+    background: #000;
+    margin-top: 2px;
+    font-size: 50px;
+    line-height: 5.7vw;
+    text-align: left;
+    color: whitesmoke;
+    display: inline;
+    width: 21.5px;
+    height: 8vh;
+    font-family: 'canopee';
+    padding: 5px;
+    margin-bottom: -48px;
+}
+
+.info {
+    font-size: 20px;
+    margin-top: 0px;
+    line-height: 1.6;
+    padding: 6px;
+    font-family: sans-serif;
+    display: inline;
+}
+
+.gola {
+    width: 72%;
+    height: 15vh;
+    margin-left: 53px;
+    margin-top: 42px;
+    background-color: #c9c0b5;
+    border-radius: 50%;
+    border: 1px solid #1b1b1996;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gola h1 {
+    font-size: 4vw;
+    letter-spacing: -0.25vw;
+    word-spacing: -0.2vw;
+    font-family: canopee;
+    font-weight: 100;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-45%);
+    transition: all ease 0.4s;
+}
+
+.gola img {
+    height: 3vw;
+    display: inline-block;
+    transform: translateX(-120%);
+    transition: all ease 0.4s;
+}
+
+.gola:hover img {
+    transform: translateX(95%);
+}
+
+.gola:hover h1 {
+    transform: translateX(130%);
+}
+
+.bigimg {
+    padding: 7px;
+    margin: 13px;
+    margin-top: -460px;
+    width: 206%;
+}
+
+.big-image {
+    width: 100%;
+    margin-top: -23px;
+}
+
+.ttop {
+    width: 99%;
+    border-bottom: 1px solid black;
+    height: 22vh;
+    border-top: 1px solid black;
+    font-family: 'canopee';
+}
+
+.inner {
+    float: left;
+    text-align: center;
+}
+
+.init {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 44px;
+    padding: 0px;
+    margin: 27px;
+    font-family: 'canopee';
+    letter-spacing: 0.5px;
+}
+
+.h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    font-family: Canopee, sans-serif;
+    font-size: 3vm;
+    font-weight: 400;
+    line-height: 3vw;
+}
+
+.itit {
+    font-size: 4vw;
+    line-height: 0vw;
+    padding: 0px;
+    margin: -9px;
+    font-family: 'canopee';
+    letter-spacing: 0.5px;
+}
+
+.num {
+    float: left;
+    margin-left: 17.5vw;
+    font-size: 6vw;
+    font-weight: 300;
+    line-height: 1vw;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'canopee';
+    letter-spacing: 0.5px;
+}
+
+.section-container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 36px 0;
+    position: relative;
+    font-family: 'canopee';
+}
+
+.cap {
+    position: relative;
+}
+
+.cap img {
+    width: 11vw;
+    height: auto;
+    display: block;
+    margin-bottom: 61px;
+}
+
+.man {
+    width: 100%;
+    position: relative;
+}
+
+.man img {
+    margin-bottom: -142px;
+    margin-left: -328px;
+    width: 282%;
+    height: auto;
+    display: block;
+    border: 1px solid #000;
+}
+
+.text-box {
+    position: relative;
+}
+
+.box1 {
+    text-transform: uppercase;
+    font-family: 'canopee';
+    font-size: 29vw;
+    font-weight: 400;
+    line-height: 0vw;
+    margin: 0;
+    margin-left: -30vw;
+    margin-top: -15px;
+}
+
+.innn {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.box2 {
+    text-transform: uppercase;
+    font-family: 'canopee';
+    font-size: 27vw;
+    font-weight: 400;
+    line-height: 6vw;
+    margin: 0;
+    margin-top: 0vw;
+    letter-spacing: -0.05em;
+}
+
+.section2-container {
+    display: flex;
+    margin-top: 32px;
+}
+
+.trophy {
+    margin: 0px;
+    padding: 9px;
+    width: 27%;
+    height: 45vh;
+}
+
+.trophy img {
+    width: 90%;
+    height: 45vh;
+}
+
+.text2-box h1 {
+    font-family: 'canopee';
+    margin-bottom: 41px;
+    margin-top: 25px;
+    font-weight: 900;
+    line-height: 0.9;
+    text-transform: uppercase;
+    color: #0d0d0d;
+    font-size: 298px;
+}
+
+.text3-box {
+    display: flex;
+    padding: 7px;
+    margin: 8px;
+}
+
+.text3-box p {
+    padding: 9px;
+    max-width: 97%;
+    font-size: 2vw;
+    line-height: 2.5vw;
+}
+
+.Art {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    padding-right: 1vw;
+    padding-left: 2vh;
+    font-size: 23vw;
+    text-transform: uppercase;
+    background: #111;
+    color: #d3ccbf;
+    font-family: 'canopee';
+}
+
+.cardss {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+    gap: 0px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.card {
+    width: 393px;
+    background: rgb(201, 189, 189);
+    padding: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateX(50%);
+}
+
+.card .text-boox {
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.profile h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.profile span {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.card-1 {
+    z-index: 1;
+    top: 1px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.card-2 {
+    margin-right: 137px;
+    z-index: 2;
+    top: 1px;
+    position: absolute;
+    border: 2px solid black;
+}
+
+.card-3 {
+    margin-left: 272px;
+    z-index: 3;
+    top: 1px;
+    position: absolute;
+    border: 2px solid black;
+}
+
+.card-4 {
+    margin-left: 177px;
+    z-index: 4;
+    top: 1px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    border-top: 1px solid #151313;
+    border-bottom: 1px solid #111010;
+    padding: 20px 0;
+}
+
+.marquee-track {
+    display: inline-block;
+    animation: scroll 7s linear infinite;
+    font-size: 70px;
+    font-weight: 400;
+    font-family: "Georgia", serif;
+    cursor: pointer;
+}
+
+.marquee span {
+    padding-right: 3rem;
+}
+
+.marquee:hover .marquee-track {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.footer {
+    width: 91%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Georgia", serif;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'canopee';
+}
+
+.footer-right a,
+.footer-left a,
+.brand {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: bold;
+}
